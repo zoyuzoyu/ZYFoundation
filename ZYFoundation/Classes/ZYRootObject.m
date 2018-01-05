@@ -9,4 +9,9 @@
 
 @implementation ZYRootObject
 
++(NSString *)description
+{
+    return @"[ZYFoundation]ZYRootObject"
+}
+
 @end
