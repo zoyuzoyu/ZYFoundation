@@ -1,0 +1,22 @@
+{
+  "name": "ZYFoundation",
+  "version": "1.0",
+  "summary": "Guide for private pods :",
+  "description": "Guide for private pods",
+  "homepage": "https://github.com/zoyuzoyu/ZYFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhouyu": "zhouyu@yixia.com"
+  },
+  "source": {
+    "git": "https://github.com/zoyuzoyu/ZYFoundation.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYFoundation/Classes/**/*"
+}

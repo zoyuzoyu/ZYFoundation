@@ -7,6 +7,7 @@
 //
 
 #import "ZYViewController.h"
+#import <ZYFoundation/ZYRootObject.h>
 
 @interface ZYViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",[ZYRootObject description]);
+    
 }
 
 - (void)didReceiveMemoryWarning
