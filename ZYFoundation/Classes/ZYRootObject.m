@@ -11,7 +11,7 @@
 
 +(NSString *)description
 {
-    return @"[ZYFoundation]ZYRootObject"
+    return @"[ZYFoundation]ZYRootObject";
 }
 
 @end
