@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-#import <ZYFoundation/ZYRootObject.h>
+#import "ZYRootObject.h"
 
 @interface ZYViewController ()
 

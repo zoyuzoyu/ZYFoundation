@@ -18,9 +18,26 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYFoundation/Classes/**/*",
+  "source_files": "ZYFoundation/Classes/**/*.{h,m}",
+  "vendored_libraries": [
+    "YXFoundation/Classes/**/*.a"
+  ],
   "frameworks": [
     "UIKit",
-    "MapKit"
-  ]
+    "MapKit",
+    "SystemConfiguration",
+    "Security",
+    "CoreTelephony",
+    "CFNetwork"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3.0",
+    "c++"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }

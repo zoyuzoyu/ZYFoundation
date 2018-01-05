@@ -11,6 +11,9 @@
 #endif
 
 #import "ZYRootObject.h"
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double ZYFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZYFoundationVersionString[];

@@ -1,5 +1,27 @@
 PODS:
-  - ZYFoundation (1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ZYFoundation (1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - ZYFoundation (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZYFoundation: ad3cd2eba8714ad94674076f0caada43932eb10e
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  ZYFoundation: 582229d3258e233c72c3066c3b2f5ef0eea87f53
 
 PODFILE CHECKSUM: 530c153b17c78f92eb943e2e7168584520a39e19
 

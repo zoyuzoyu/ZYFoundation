@@ -7,6 +7,12 @@
 //
 
 #import "ZYAppDelegate.h"
+#import "WXApi.h"
+
+@interface ZYAppDelegate ()
+<WXApiDelegate>
+
+@end
 
 @implementation ZYAppDelegate
 
