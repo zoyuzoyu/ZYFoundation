@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    Guide for private pods
+                    Guide for private pods. Learn how to build private pod specs.
                        DESC
 
   s.homepage         = 'https://github.com/zoyuzoyu/ZYFoundation'
