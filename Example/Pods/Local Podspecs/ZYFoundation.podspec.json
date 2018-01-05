@@ -2,7 +2,7 @@
   "name": "ZYFoundation",
   "version": "1.0",
   "summary": "Guide for private pods :",
-  "description": "Guide for private pods",
+  "description": "Guide for private pods. Learn how to build private pod specs.",
   "homepage": "https://github.com/zoyuzoyu/ZYFoundation",
   "license": {
     "type": "MIT",
@@ -18,5 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYFoundation/Classes/**/*"
+  "source_files": "ZYFoundation/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

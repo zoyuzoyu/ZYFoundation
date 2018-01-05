@@ -22,7 +22,7 @@ pod 'ZYFoundation'
 
 ## Author
 
-zhouyu@tiantian.me, zhouyu@yixia.com
+zhouyu, zhouyu@yixia.com
 
 ## License
 
