@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   s.source_files = 'ZYFoundation/Classes/**/*.{h,m}'
   s.vendored_libraries = ["YXFoundation/Classes/**/*.a"]
   
-  # s.resource_bundles = {
-  #   'ZYFoundation' => ['ZYFoundation/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ZYFoundation' => ['ZYFoundation/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit', 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork'
